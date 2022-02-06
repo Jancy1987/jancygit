@@ -7,7 +7,10 @@ public class EmployeeDetails {
 		public static void main(String[] args) {
 			EmployeeDetails empl = new EmployeeDetails();
 			empl.add();
+			empl.multiplication();
 		}
-
+public void multiplication() {
+	System.out.println("multiplication");
+}
 	}
 
