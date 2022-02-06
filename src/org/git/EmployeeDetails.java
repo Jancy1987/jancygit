@@ -7,6 +7,10 @@ public class EmployeeDetails {
 		public static void main(String[] args) {
 			EmployeeDetails empl = new EmployeeDetails();
 			empl.add();
+			empl.sub();
+		}
+		public void sub() {
+			System.out.println("sub");
 		}
 
 	}
